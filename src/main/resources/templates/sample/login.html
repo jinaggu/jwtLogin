@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script th:src="@{/vendor/jquery/jquery.min.js}"></script>
+</head>
+<body>
+Login2
+<!--<form action="/login/jwtLogin?email=user1@zerock.org" method="post">
+    <input type="text" value="user1@zerock.org" name="email"/>
+    <input type="text" value="1111" name="pw"/>
+    <input type="submit"/>
+</form>-->
+
+<input type="text" id="email"/>
+<input type="text" id="pw"/>
+<button id="login">로그인</button>
+
+</body>
+<script th:src="@{/js/login.js}"></script> <!-- static 폴더에 넣어야한다 ... 그래야 잡힘 ..경로에 ..ㄷㄷ -->
+</html>
